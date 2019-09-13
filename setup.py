@@ -7,10 +7,14 @@ It is intended for use in mathematics / scientific / engineering applications.
 Despite being written entirely in python, the library is very fast due to its
 heavy leverage of numpy for number crunching, Qt's GraphicsView framework for
 2D display, and OpenGL for 3D display.
+
+This version of pyqtgraph is a temporary fork of the main repository to
+enable the release of a PySide2 compatible package specifically for
+Quantiphyse.
 """
 
 setupOpts = dict(
-    name='pyqtgraph',
+    name='pyqtgraph_qp',
     description='Scientific Graphics and GUI Library for Python',
     long_description=DESCRIPTION,
     license =  'MIT',

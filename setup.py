@@ -15,7 +15,7 @@ Quantiphyse.
 
 setupOpts = dict(
     name='pyqtgraph_qp',
-    description='Scientific Graphics and GUI Library for Python',
+    description='Scientific Graphics and GUI Library for Python - Quantiphyse temporary fork',
     long_description=DESCRIPTION,
     license =  'MIT',
     url='http://www.pyqtgraph.org',
